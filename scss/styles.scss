@@ -6,6 +6,8 @@ $stripeHeight: 15vh;
 $primary_col: #142393;
 $secondary_col: rgb(229,40,16);
 
+$commodore_font: 'MicrogrammaD-BoldExte', sans-serif;
+
 html {
 	height: 100%;
 }
@@ -57,11 +59,30 @@ h1 {
 	padding-top: 0.1em;
 }
 
-footer {
-	width: 100%;
-	height: 10px;
-	margin-bottom: 20px;
-	background-color: $secondary_col;
-	border-top: 10px solid $primary_col;
 
+footer#footer {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 15px;
+	background-color: $secondary_col;
+	// border-top: 10px solid $primary_col;
+	font-family: $commodore_font;
+	font-size: 1.2em;
+	color: $primary_col;
+}
+
+#footer::after {
+	content: " ";
+	background-color: $primary_col;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	z-index: -1;
+	
+}
+
+#tagline {
+	// flex: 1;
+	// background-color: #fff;
+	padding-left: 4em;
 }

@@ -68,9 +68,22 @@ h1 {
   letter-spacing: -6px;
   padding-top: 0.1em; }
 
-footer {
-  width: 100%;
-  height: 10px;
+footer#footer {
   margin-bottom: 20px;
+  width: 100%;
+  height: 15px;
   background-color: #e52810;
-  border-top: 10px solid #142393; }
+  font-family: "MicrogrammaD-BoldExte", sans-serif;
+  font-size: 1.2em;
+  color: #142393; }
+
+#footer::after {
+  content: " ";
+  background-color: #142393;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  z-index: -1; }
+
+#tagline {
+  padding-left: 4em; }
