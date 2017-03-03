@@ -68,22 +68,47 @@ h1 {
   letter-spacing: -6px;
   padding-top: 0.1em; }
 
+em {
+  color: #e52810;
+  font-style: normal; }
+
 footer#footer {
-  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 30px;
   width: 100%;
-  height: 15px;
+  height: 0.6em;
   background-color: #e52810;
   font-family: "MicrogrammaD-BoldExte", sans-serif;
   font-size: 1.2em;
+  line-height: 0.9;
   color: #142393; }
 
 #footer::after {
   content: " ";
   background-color: #142393;
   width: 100%;
-  height: 30px;
+  height: 1.2em;
   position: absolute;
+  left: 0;
   z-index: -1; }
 
 #tagline {
-  padding-left: 4em; }
+  background-color: #fff;
+  margin-left: 4em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.2em; }
+  #tagline a {
+    text-decoration: none;
+    color: #142393;
+    font-size: 1.2em;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center; }
+  #tagline a:hover {
+    border-bottom: 2px dotted #e52810; }
