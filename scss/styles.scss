@@ -1,8 +1,24 @@
 // Reset Browser Styles
 @import 'reset';
+@import 'fonts';
 
 $stripeHeight: 15vh;
 $primary_col: #142393;
+$secondary_col: rgb(229,40,16);
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1
+}
 
 .spectrum {
 	width: 100%;
@@ -39,4 +55,13 @@ h1 {
 	line-height: 0.9;
 	letter-spacing: -6px;
 	padding-top: 0.1em;
+}
+
+footer {
+	width: 100%;
+	height: 10px;
+	margin-bottom: 20px;
+	background-color: $secondary_col;
+	border-top: 10px solid $primary_col;
+
 }
