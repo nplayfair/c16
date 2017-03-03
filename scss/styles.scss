@@ -1,17 +1,16 @@
-// Needs latest Compass, add '@import "compass"' to your scss
-// Permalink - use to edit and share this gradient:
-// http://colorzilla.com/gradient-editor/#96c0e0+0,0b5da0+20,f7ef00+60,e52810+100
 
 @import 'reset';
 
 $stripeHeight: 15vh;
+$primary_col: #142393;
 
 .spectrum {
 	width: 100%;
 	height: $stripeHeight;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96c0e0+0,0b5da0+20,f7ef00+60,e52810+100 */
 	background: rgb(150,192,224); /* Old browsers */
-	background: linear-gradient(to right, rgba(150,192,224,1) 0%,rgba(11,93,160,1) 20%,rgba(247,239,0,1) 60%,rgba(229,40,16,1) 100%);
+	background: linear-gradient(to right, rgba(150,192,224,1) 0%,rgba(11,93,160,1) 20%,
+		rgba(247,239,0,1) 60%,rgba(229,40,16,1) 100%);
 }
 
 .stripes {
@@ -27,14 +26,14 @@ $stripeHeight: 15vh;
 .divider {
 	height: 10px;
 	width: 100%;
-	border-bottom: 10px solid navy;
+	border-bottom: 10px solid $primary_col;
 }
 
 h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 96px;
-	color: navy;
+	color: $primary_col;
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 0.9;
