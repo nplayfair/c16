@@ -19,6 +19,7 @@ gulp.task('browser-sync', ['sass', 'scripts'], function() {
 /**
  * Compile files from scss
  */
+
 gulp.task('sass', function () {
   return gulp.src('scss/styles.scss')
   .pipe(sass({
