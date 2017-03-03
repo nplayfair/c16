@@ -1,12 +1,12 @@
 {
   "name": "blank-html5",
-  "version": "1.0.0",
-  "description": "Blank HTML5 template for experiments",
+  "version": "1.1",
+  "description": "Blank HTML5 template. Forked from @deep_labs",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Chen Hui Jing <kakyou_tensai@yahoo.com>",
+  "author": "Nick Playfair <contact@nickplayfair.co.uk>",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.8",
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huijing/blank-html5.git"
+    "url": "https://github.com/nplayfair/blank-html5.git"
   }
 }
