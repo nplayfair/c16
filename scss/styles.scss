@@ -8,6 +8,8 @@ $secondary_col: rgb(229,40,16);
 
 $commodore_font: 'MicrogrammaD-BoldExte', sans-serif;
 
+// Sticky footer
+
 html {
 	height: 100%;
 	// box-model: border-box;
@@ -23,10 +25,11 @@ body {
 	flex: 1
 }
 
+// ******
+
 .spectrum {
 	width: 100%;
 	height: $stripeHeight;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96c0e0+0,0b5da0+20,f7ef00+60,e52810+100 */
 	background: rgb(150,192,224); /* Old browsers */
 	background: linear-gradient(to right, rgba(150,192,224,1) 0%,rgba(11,93,160,1) 20%,
 		rgba(247,239,0,1) 60%,rgba(229,40,16,1) 100%);
@@ -104,14 +107,3 @@ footer#footer {
 	a:hover {
 		border-bottom: 2px dotted $secondary_col;
 	}
-  // @supports (transition-delay: 0.2s) {
-		// 		a {
-		// 		  	border-bottom: 0;
-		// 		  	transition: font-size ease 0.2s;
-		// 		  }
-		// 		 a:hover {
-		// 		 	border-bottom: 0;
-		// 		 	font-size: 1.4em;
-		// 		 }
-		// 	}
-}
